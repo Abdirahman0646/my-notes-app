@@ -1,5 +1,4 @@
-const API_URL = 'http://localhost:5000/api/notes';
-
+const API_URL = 'https://my-notes-app-0rz9.onrender.com/api/notes';
 // 1. Fetch and Display Notes on Load
 async function fetchNotes() {
     const response = await fetch(API_URL);
